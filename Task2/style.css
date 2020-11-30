@@ -1,0 +1,58 @@
+form {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(0, 100, 255);
+    background-color: rgb(0, 150, 255);
+    color: white;
+}
+
+hr {
+    color: white;
+    background-color: white;
+    height: 1px;
+}
+
+div.registration {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+div.main_email {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+div.main_password {
+    display: inline-block;
+    width: 40%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+div.main_secondpassword {
+    display: inline-block;
+    width: 40%;
+}
+
+input.email {
+    display: block;
+    width: 79%;
+}
+
+input.password {
+    display: block;
+    width: 90%;
+}
+
+input.secondpassword {
+    display: block;
+    width: 90%;
+}
+
+input.button {
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: yellow;
+}

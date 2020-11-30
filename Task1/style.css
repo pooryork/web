@@ -1,0 +1,22 @@
+div {
+    width: 200px;
+    background-color: rgb(233, 210, 134);
+
+    border: solid rgb(194, 76, 22);
+    border-radius: 10px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(194, 76, 22);
+    padding: 5px;
+    margin: 0px;
+}
+
+li {
+    padding: 3px;
+}

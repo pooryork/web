@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(55, 73, 95);
+}
+
+div.main {
+    background-color: white;
+    border-radius: 5px;
+    width: 1200px;
+    height: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+div.hosting {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.cloud {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.server {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.text {
+    color: orangered;
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    border: none;
+    height: 20px;
+}
+
+img.hosting {
+    width: 100px;
+    height: 100px;
+}
+
+img.cloud {
+    width: 100px;
+    height: 100px;
+}
+
+img.server {
+    width: 100px;
+    height: 100px;
+}
+
+hr {
+    height: 85%;
+    align-self: center;
+    margin: 0px;
+}

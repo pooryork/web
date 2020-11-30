@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+div.first_triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid aqua;
+
+    left: calc(50% - 50px);
+    top: 5px;
+}
+
+div.second_triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 95px solid blue;
+    z-index: 1;
+
+    left: calc(50% - 45px);
+    top: 15px;
+}
+
+div.main {
+    border: 5px solid aqua;
+    height: 200px;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 100px;
+}
